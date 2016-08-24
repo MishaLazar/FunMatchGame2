@@ -3,8 +3,6 @@ package com.example.misha.funmatchgame;
  * Created by Misha on 8/2/2016.
  */
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
