@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.6"
+    android:background="@drawable/end_dialog">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:id="@+id/end_game_name"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/end_game_time"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@+id/end_game_name"
+        android:layout_marginTop="120dp"
+        android:focusable="false"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>

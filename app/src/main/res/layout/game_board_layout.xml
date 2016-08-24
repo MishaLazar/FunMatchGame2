@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_board_layout"
+    android:layout_gravity="left"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/score_bar_layout"
+        android:background="@color/blue_pastel2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_bar_avatar_info"
+            android:text="@string/avatar_start_default"
+            android:paddingLeft="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_bar_timer_header"
+            android:text="@string/time"
+            android:layout_toLeftOf="@+id/score_bar_timer_up"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_bar_timer_up"
+            android:text="@string/timer_start"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_board_table"
+        android:layout_margin="0dp"
+        android:stretchColumns="*"
+        android:layout_weight="1">
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_container"
+        android:background="@color/blue_pastel2"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:id="@+id/pause_btn"
+            android:background="@drawable/pause_button2"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+</LinearLayout>

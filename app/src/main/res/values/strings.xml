@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">minmory</string>
+    <string name="play_btn">Play</string>
+    <string name="level_select_btn">Select Level</string>
+    <string name="score_title">Your Score:</string>
+    <string name="exit_btn">EXIT</string>
+    <string name="Pause">PAUSE</string>
+    <string name="back_to_lobby">Back</string>
+    <string name="Score_board">Score Board</string>
+    <string name="time">Time:</string>
+    <string name="user_name_set">Enter your Name:</string>
+    <string name="ok_btn_text">OK</string>
+    <string name="cancel_btn_txt">Cancel</string>
+    <string name="timer_start">00:00</string>
+    <string name="avatar_start_default">AVATAR</string>
+    <string-array name="type">
+        <item>Select Level</item>
+        <item>2x2</item>
+        <item>2x3</item>
+        <item>4x3</item>
+        <item>4x4</item>
+        <item>6x4</item>
+    </string-array>
+    <string name="name_key">name</string>
+    <string name="end_game_timer_key">e_g_t_key</string>
+    <string name="row_key">rows</string>
+    <string name="col_key">columns</string>
+    <string name="preference_file_key">com.example.misha.funmatchgame.PREFERENCE_FILE_KEY</string>
+    <string name="case_name">name</string>
+    <string name="case_rows">rowSize</string>
+    <string name="case_cols">colSize</string>
+    <string name="name_key_default">Misha</string>
+    <integer name="row_key_default">2</integer>
+    <integer name="col_key_default">2</integer>
+
+    <string name="name_lvl_msg">make sure to entered a name and game level</string>
+
+
+    <!--> messages <-->
+    <string name="score_saving_fail">Error occured, could not save your score</string>
+    <string name="score_board_data_fail">Error occured, could not display data</string>
+    <string name="failed_to_get_resource">Error occured, try again later</string>
+    <string name="failed_to_compare_cards">Error occured, try again</string>
+    <string name="illegal_mathematical_action">Error occured, try again</string>
+
+
+</resources>
